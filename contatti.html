@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="all and (max-width: 480px)" href="styles1.css">
+</head>
+
+<body>
+    <header>
+        <div class="srcbar">
+            <a href="sitoLibreria.html">
+                <img id="logo" src="img/LOGOY.png" height=48px;>
+            </a>
+            <input id="inputSearch" name="inputSearch" type="text" placeholder=" Cerca tra milioni di prodotti"
+                autocomplete="off" class="cc-input">
+            <div class="icons">
+                <a href="carrello.html">
+                    <img class="icon" src="img/CARTY.png" alt="Cart" height="48px">
+                </a><a href="wishlist.html">
+                    <img class="icon" src="img/CUOREY.png" alt="Wishlist" height="48px">
+                </a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="sitoLibreria.html">Libri</a></li>
+                <li><a href="audiolibri.html">Audiolibri</a></li>
+                <li><a href="CD & Vinili.html">CD & Vinili</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contatti</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contatti Customer Service:</h3>
+                <p>Email: support@libreriageneration.it</p>
+                <p>Telefono: +39 0123 456 789</p>
+                <p>Indirizzo: Via Roma 123, 00100 Roma, IT</p>
+            </div>
+            <div class="contact-form">
+                <h3>Se devi fare un reclamo:</h3>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Specifica la natura del reclamo. (es. Consegna non effettuata)"></textarea>
+
+                    <button type="submit">Invia</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Ciro Aldorisio | Riccardo Piccinini | Daniel Samson | Nicolò Padova
+        </p>
+    </footer>
+</body>
+
+</html>
